@@ -14,7 +14,7 @@ export function GetSelectionPlayer() {
     fetchApiSelection()
   }, [])
 
-  const url = `https://52.15.224.86:5000/api/v1/selection/${id}`
+  const url = `http://3.18.161.85:5000/api/v1/selection/${id}`
 
   const fetchApiSelection = async () => {
     const response = await fetch(url)

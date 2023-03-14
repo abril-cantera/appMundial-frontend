@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export function GetSelection() {
 
   const [selection, setSelection] = useState([])
-  const url = "https://52.15.224.86:5000/api/v1/selection"
+  const url = "http://3.18.161.85:5000/api/v1/selection"
 
   const fetchApiSelection = async () => {
     const response = await fetch(url)
